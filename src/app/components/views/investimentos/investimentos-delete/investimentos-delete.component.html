@@ -1,0 +1,33 @@
+<form action="">
+
+   <h1>DELETAR INVESTIMENTO</h1>
+
+
+   <mat-form-field class="form">
+      <mat-label>Nome</mat-label>
+      <input matInput [(ngModel)]="investimentos.nome" type="text" name="nome" disabled="true">
+   </mat-form-field>
+
+
+
+   <mat-form-field class="form">
+      <mat-label>Taxa</mat-label>
+      <input matInput [(ngModel)]="investimentos.taxa" type="text" name="taxa" disabled="true">
+   </mat-form-field>
+
+
+
+   <div class="buttons">
+
+      <button (click)="deletar()" mat-stroked-button class="mat-elevation-z8">
+         DELETAR
+      </button>
+
+      <button (click)="cancelar()" mat-stroked-button class="mat-elevation-z8">
+         CANCELAR
+      </button>
+
+   </div>
+
+
+</form>

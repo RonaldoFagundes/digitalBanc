@@ -1,0 +1,114 @@
+<mat-sidenav-container class="container">
+
+
+  <mat-card class="create mat-elevation-z4">
+
+
+
+
+    <form action="">
+
+      <h1>Tela Movimentação</h1>
+
+      <h2>{{today}}</h2>
+
+
+      <mat-card class="content mat-elevation-z4">
+
+        <mat-form-field class="form">
+
+          <mat-label class="form-text">TIPO</mat-label>
+          <input class="form-text" matInput [(ngModel)]="contas.tipo" type="text" name="tipo" disabled="true">
+
+        </mat-form-field>
+
+
+
+        <mat-form-field class="form">
+
+          <mat-label class="form-text">Nº</mat-label>
+          <input class="form-text" matInput [(ngModel)]="contas.numero" type="text" name="numero" disabled="true">
+
+        </mat-form-field>
+
+
+
+        <mat-form-field class="form">
+
+          <mat-label class="form-text">SALDO</mat-label>
+          <input class="form-text" matInput [(ngModel)]="contas.saldo" type="text" name="saldo" disabled="true">
+
+        </mat-form-field>
+
+      </mat-card>
+
+
+      <section class="check-section">
+
+        <mat-checkbox class="ckeck-option" (click)="selecionarTipo(true, false)" [(ngModel)]="receitas" name="receitas">
+          RECEITAS
+        </mat-checkbox>
+
+        <mat-checkbox class="ckeck-option" (click)="selecionarTipo(false,true)" [(ngModel)]="despesas" name="despesas">
+          DESPESAS
+        </mat-checkbox>
+
+      </section>
+
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">TIPO TRANSAÇÃO</mat-label>
+        <input matInput [(ngModel)]="movimentacao.tipo" type="text" name="tipo_transacao" placeholder="tipo">
+
+      </mat-form-field>
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">DESCRIÇÃO</mat-label>
+        <input matInput [(ngModel)]="movimentacao.descricao" type="text" name="descricao" placeholder="descricao">
+
+      </mat-form-field>
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">VALOR</mat-label>
+        <input matInput [(ngModel)]="movimentacao.valor" type="text" name="valor" placeholder="digitar só numeros">
+
+      </mat-form-field>
+
+
+
+
+
+
+
+
+
+      <div class="buttons">
+
+        <button (click)="lancarMovimentacao()" mat-stroked-button class="mat-elevation-z8">Lançar
+        </button>
+
+        <button (click)=" telaConta()" mat-stroked-button class="mat-elevation-z8">
+          Voltar
+        </button>
+
+      </div>
+
+
+
+
+    </form>
+
+
+
+  </mat-card>
+
+
+
+
+</mat-sidenav-container>

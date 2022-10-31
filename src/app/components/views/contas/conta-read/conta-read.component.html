@@ -1,0 +1,132 @@
+
+<mat-sidenav-container class="container">
+
+
+<div class="content">
+
+    <div class="title">
+        <h1>Contas</h1>
+    </div>
+
+
+
+    <mat-form-field >         
+       <input  class="form-text"  matInput [(ngModel)]="id_user"  disabled="true">
+     </mat-form-field>
+
+
+     <mat-form-field >        
+        <input  class="form-text"  matInput [(ngModel)]="user.name"  disabled="true">
+     </mat-form-field>
+
+
+
+
+
+
+
+     <div class="mat-elevation-z8 content-table">
+
+      <table class="table" mat-table [dataSource]="contas">      
+  
+       
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef> ID </th>
+          <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+        </ng-container>
+      
+  
+       
+        <ng-container matColumnDef="numero">
+          <th mat-header-cell *matHeaderCellDef> Nº </th>
+          <td mat-cell *matCellDef="let row"> {{row.numero}} </td>
+        </ng-container>
+      
+  
+       
+        <ng-container matColumnDef="saldo">
+          <th mat-header-cell *matHeaderCellDef> SALDO </th>
+          <td mat-cell *matCellDef="let row"> {{row.saldo}} </td>
+        </ng-container>
+  
+  
+        <ng-container matColumnDef="tipo">
+          <th mat-header-cell *matHeaderCellDef> TIPO </th>
+          <td mat-cell *matCellDef="let row"> {{row.tipo}} </td> 
+        </ng-container>
+
+
+        <ng-container matColumnDef="movimentacao">
+          <th mat-header-cell *matHeaderCellDef> Movimentacao </th>
+          <td mat-cell *matCellDef="let row">
+           
+          
+            <!--  <a  class="movimentacao" routerLink="movimentacao" >
+               <i class="material-icons">book</i>
+             </a> 
+          
+             <button (click)="readMovimentacao(row.id)"  mat-stroked-button        class="mat-elevation-z8">
+              EXTRATO
+             </button>
+
+             <button  (click)="lancarMovimentacao(row.id)" mat-stroked-button        class="mat-elevation-z8">
+              LANCAR
+             </button>
+            -->
+
+
+            <button  (click)="selectConta(row.id)" mat-stroked-button           class="mat-elevation-z8">
+              SELECIONE
+             </button>
+
+
+          </td>
+        </ng-container>
+
+
+
+
+        <!-- <ng-container matColumnDef="acoes">
+
+          <th class="mat-header" mat-header-cell *matHeaderCellDef> AÇOÊS </th>
+          <td mat-cell *matCellDef="let row"> 
+     
+             <a  class="edit" >
+               <i class="material-icons">edit</i>
+             </a>
+
+             <a  class="delete">
+               <i class="material-icons">delete</i>
+             </a>
+
+          </td>
+        </ng-container> -->
+  
+                    
+      
+        
+       
+  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+  
+
+       <div class="buttons">
+
+        <button  (click)="openCont()" [disabled]="new_conta"  mat-stroked-button  class="mat-elevation-z8">
+          1º CONTA</button>
+  
+         <button  (click)="openCont()" [disabled]="add_conta" mat-stroked-button  class="mat-elevation-z8">NOVA CONTA</button>  
+  
+       </div>
+
+
+   </div>
+  
+
+
+  </div>  
+
+
+</mat-sidenav-container>

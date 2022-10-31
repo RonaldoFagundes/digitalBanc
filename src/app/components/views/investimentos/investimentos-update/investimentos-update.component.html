@@ -1,0 +1,30 @@
+<form action="">
+
+    <h1>ATUALIZAR INVESTIMENTO</h1>
+
+     <mat-form-field class="form">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="investimentos.nome" type="text" name="nome" placeholder="nome do investimento">
+     </mat-form-field>
+
+
+     <mat-form-field class="form">
+        <mat-label>Taxa</mat-label>
+        <input matInput [(ngModel)]="investimentos.taxa" type="text" name="taxa" placeholder="percentual do cdi">
+     </mat-form-field>
+
+
+
+     <div class="buttons">
+      
+       <button (click)="update()" mat-stroked-button  class="mat-elevation-z8">
+         ATUALIZAR
+       </button>
+
+       <button (click)="cancelar()" mat-stroked-button  class="mat-elevation-z8">
+         CANCELAR
+       </button>
+
+     </div>
+
+</form>

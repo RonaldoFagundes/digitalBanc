@@ -1,0 +1,64 @@
+<mat-sidenav-container class="container">
+
+  <mat-card class="login mat-elevation-z4">
+
+
+
+    <form action="">
+
+
+      <h1>LOGAR</h1>
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">Nº de acesso</mat-label>
+
+        <input matInput [(ngModel)]="user.id" required type="text" name="numero" placeholder="numero do id">
+
+      </mat-form-field>
+
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">User</mat-label>
+
+        <input matInput [(ngModel)]="user.login" [formControl]="login" required type="text" name="login"
+          placeholder="EX. Apelido" maxlength="40">
+        <mat-error *ngIf="login.invalid">{{ getMessage() }}</mat-error>
+      </mat-form-field>
+
+
+
+      <mat-form-field class="form">
+
+        <mat-label class="form-text">Password</mat-label>
+
+        <input matInput [(ngModel)]="user.password" [formControl]="password" required type="password" name="password"
+          placeholder="EX. Senha" maxlength="12">
+        <mat-error *ngIf="login.invalid">{{ getMessage() }}</mat-error>
+      </mat-form-field>
+
+
+
+      <div class="buttons">
+
+        <button (click)="logar()" [disabled]="getMessage()" mat-stroked-button class="mat-elevation-z8">
+          Logar</button>
+
+        <button (click)="cadastrar()" mat-stroked-button class="mat-elevation-z8">
+          cadastrar</button>
+
+
+
+      </div>
+
+
+
+    </form>
+
+
+  </mat-card>
+
+</mat-sidenav-container>

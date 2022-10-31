@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    height: 16%;
+    width: 100%;
+    text-align: center;
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+
+    background-color: rgba(12, 71, 122, 0.8);
+    background-image: linear-gradient(to top, transparent, rgba(12, 71, 122, 0.8));
+    /*box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);*/
+}

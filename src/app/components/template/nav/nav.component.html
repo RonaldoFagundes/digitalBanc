@@ -1,0 +1,45 @@
+<mat-sidenav-container class="container">
+
+
+
+ <mat-sidenav  class="menu" mode="side" opened>
+
+    <mat-nav-list>
+       <a routerLink="" mat-list-item>
+          <i class="material-icons">home</i>
+          <span>Home</span>                
+       </a>
+       
+       <a routerLink="/login" mat-list-item>
+           <i class="material-icons">account_box</i> 
+            <span>Logar</span>
+        </a>
+
+        <a routerLink="/users" mat-list-item>
+          <i class="material-icons">settings</i>    
+          <span>ADM_USERS</span>
+       </a>
+
+       <a routerLink="/investimentos" mat-list-item>
+         <i class="material-icons">settings</i>    
+          <span>ADM_INVEST</span>
+      </a>
+
+      
+    </mat-nav-list>
+  </mat-sidenav>
+
+
+  <mat-sidenav-content>
+        <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+  
+</mat-sidenav-container> 
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    height: 64%;
+    height: 100%;
+    
+    background-color: rgba(22, 21, 122, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(22, 21, 122, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.create{
+    width: 95%;
+    height: 86%;
+    background-color: rgba(32, 15, 22, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(32, 15, 22, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+    margin: 1rem auto;
+}
+
+
+
+form{
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+}
+
+
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color:#33FFAC
+}
+
+
+
+.form{
+    width: 100%;
+}
+
+
+
+
+.form-text{
+    color:#3385ff;
+}
+
+
+
+
+input{
+    color:#33ff70;
+}
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#ffff;
+    opacity: 1; /* Firefox */
+  }
+
+
+
+
+
+.buttons{
+    width: 100%;
+    text-align: start;
+    color:#33f8ff;
+}
+
+
+
+
+button{
+    margin-right: .5rem;
+    padding-right: 2rem; 
+    padding-left: 2rem; 
+}
+
+
+
+
+@media(max-width:380px){
+    
+    h1{
+        font-size: 1.2rem;
+    }  
+
+    .create{
+        height: 89%;
+        width: 74.5%;
+      }
+
+
+      button{
+        margin-top: 0.7rem;
+      }
+
+}

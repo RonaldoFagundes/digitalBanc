@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{    
+    height: 100%;    
+    background-color: rgba(22, 21, 122, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(22, 21, 122, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.simula{
+    width: 95%;
+    height: auto;
+    background-color: rgba(32, 15, 22, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(32, 15, 22, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+    margin: 1rem auto;
+}
+
+
+
+
+
+.content{
+    display: block;    
+    width: auto;
+    height: auto;
+    background-color: rgba(32, 15, 22, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(32, 15, 22, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+    margin: 2rem auto;
+}
+
+
+
+.content-input{
+  width: auto;
+  height: 60px;
+  padding: 5px; 
+  display:flex;  
+  justify-content: space-between;
+  align-items: center;  
+}
+
+
+.input-name{
+  font-size: 0.9rem;
+  font-weight: 500; 
+  color:#33FFAC;
+  margin-left: 0.6rem;
+}
+
+
+input{
+  font-size: 1.2rem;
+  font-weight: 500; 
+  color:#dbba5f
+}
+
+
+
+
+
+
+form{
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+}
+
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color:#33FFAC
+}
+
+
+
+
+h2{
+    font-size: 1.0rem;
+    font-weight: 500;
+     color:#33FFAC
+}
+
+
+
+
+
+.form{
+    width: 100%;
+}
+
+
+
+.form-text{
+    color:#3385ff;
+}
+
+
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#ffff;
+    opacity: 1; /* Firefox */
+  }
+
+
+
+
+
+
+  .content_info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    background-color: rgba(32, 15, 22, 0.3);
+    background-image: linear-gradient(to top, transparent, rgba(32, 15, 22, 0.8));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+    margin: 2rem auto;
+  }
+
+
+
+  .invest{
+    margin-bottom: 1.2rem;
+    padding-right: 2rem; 
+    padding: 0.6rem;
+    background-color: rgba(32, 15, 22, 0.3);
+  }
+
+
+
+  .invest_tipo{    
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#33FFAC
+  }
+
+
+
+  .invest_info{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#33FFAC
+  }
+
+
+
+
+.buttons{
+    width: 100%;
+    text-align: start;
+    color:#33f8ff;
+}
+
+
+button{
+    margin-right: .5rem;
+    margin-bottom: 1.8rem;
+    padding-right: 2rem; 
+    padding-left: 2rem; 
+}
+
+
+
+
+
+
+
+@media(max-width:380px){
+    
+  .container{  
+    padding: 0px
+    
+  }
+  
+
+  .content{
+   width: 150px;
+   height: 220px;
+   margin: 0px;
+   margin-bottom: 20px;
+   
+  }
+
+  h1{
+    font-size: 1rem;
+  } 
+
+  h4{
+    font-size: 0.6rem;
+  }
+
+  .content-input{   
+    width: auto;
+    height: 120px;
+    display: block;
+    padding: 25px;    
+    margin-bottom: 20px;   
+  }
+
+  input{
+   margin-bottom:15px;
+  }
+
+  .content_info{
+    height: auto;
+    width: 100%;
+  }
+
+  .invest_tipo, .invest_info{
+    font-size: 0.9rem;
+  }
+
+}

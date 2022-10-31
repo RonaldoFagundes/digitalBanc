@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.container{
+    height: auto;    
+    background-color: rgba(22, 21, 22, 0.2);
+    background-image: linear-gradient(to button, transparent, rgba(10, 4, 44, 0.151));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+.content{
+    width: 94%;  
+    margin: 1.2rem auto auto auto;  
+    padding: 2rem;
+    background-color: rgba(30, 8, 55, 0.4);
+    background-image: linear-gradient(to button, transparent, rgba(30, 10, 30, 0.4));
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+    margin: 1.2rem auto auto auto;
+}
+
+
+
+
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title h1{
+    font-size: 2rem;
+    color: chartreuse;
+    font-weight: 500;
+}
+
+.form-text{
+    color:#3385ff;
+}
+
+
+.table{
+  width: 100%;
+  padding: 20px;
+
+  background-color: rgba(30, 8, 55, 0.4);
+  background-image: linear-gradient(to button, transparent, rgba(30, 10, 30, 0.4));
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+.mat-header{
+    width: 5rem;    
+}
+
+td,th{
+    color: aqua;
+}
+
+
+.buttons{
+    width: 100%;
+    margin: 2rem;
+    text-align: start;
+       
+}
+
+
+
+
+button{
+    margin-right: .5rem;
+    padding-right: 2rem; 
+    padding-left: 2rem; 
+    background-color: rgb(80, 234, 245);
+    color: blue;
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+
+
+@media(max-width:380px){    
+
+    .container{
+        margin: 0px;
+        padding: 0px;
+        width: 213px;
+        height: auto;
+     }
+
+    .content{     
+       width: 230px;
+       height: auto;  
+       margin: 0px;     
+     }
+
+
+    .content-table{
+       width: 100%;
+       height: auto;       
+    }
+
+    .table{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    
+        background-color: rgba(30, 8, 55, 0.4);
+        background-image: linear-gradient(to button, transparent, rgba(30, 10, 30, 0.4));
+        box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.7);
+     }
+  
+
+     td,th{
+        color: aqua;
+        font-size: 0.4rem;
+    }  
+
+
+    button{       
+        height: auto;
+        font-size: 0.4rem; 
+        padding: 0;           
+    }   
+
+
+}

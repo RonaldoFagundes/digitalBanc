@@ -1,0 +1,42 @@
+<form action="">
+
+    <h1>EDITAR USER</h1>
+
+
+    <mat-form-field class="form">
+      <mat-label>Nome</mat-label>
+      <input matInput [(ngModel)]="user.name" type="text" name="nome" placeholder="Nome">
+   </mat-form-field>
+
+   <mat-form-field class="form">
+      <mat-label>Login</mat-label>
+      <input matInput [(ngModel)]="user.login" type="text" name="login" placeholder="User">
+   </mat-form-field>
+
+   <mat-form-field class="form">
+      <mat-label>Password</mat-label>
+      <input matInput [(ngModel)]="user.password" type="text" name="password" placeholder="password">
+   </mat-form-field>
+
+
+   
+
+
+
+
+
+     <div class="buttons">
+
+      <button  (click)="update()" mat-stroked-button     class="mat-elevation-z8">
+         ATUALIZAR
+      </button>
+
+      <button  (click)="cancelar()" mat-stroked-button  class="mat-elevation-z8">
+         CANCELAR
+      </button>
+
+      </div>
+
+
+
+</form>

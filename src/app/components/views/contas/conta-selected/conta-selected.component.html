@@ -1,0 +1,64 @@
+<mat-sidenav-container class="container">
+
+
+  <div class="content">
+
+    <div class="title">
+      <h1>Conta Selecionada</h1>
+    </div>
+
+
+    <mat-form-field>
+      <mat-label class="form-text">id user :</mat-label>
+      <input class="form-text" matInput [(ngModel)]="id_user" disabled="true">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input class="form-text" matInput [(ngModel)]="user.name" disabled="true">
+    </mat-form-field>
+
+
+    <mat-form-field>
+      <mat-label class="form-text">id conta :</mat-label>
+      <input class="form-text" matInput [(ngModel)]="contaId" disabled="true">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input class="form-text" matInput [(ngModel)]="contaNumero" disabled="true">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input class="form-text" matInput [(ngModel)]="contaTipo" disabled="true">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input class="form-text" matInput [(ngModel)]="contaSaldo" disabled="true">
+    </mat-form-field>
+
+
+    <div class="buttons">
+
+
+      <button (click)="readMovimentacao(id_user , contaId)" mat-stroked-button class="mat-elevation-z8">
+        EXTRATO
+      </button>
+
+      <button (click)="lancarMovimentacao(id_user , contaId)" mat-stroked-button class="mat-elevation-z8">
+        MOVIMENTACÃO
+      </button>
+
+      <button (click)="selecionarConta()" mat-stroked-button class="mat-elevation-z8">
+        SELECIONAR OUTRA CONTA
+      </button>
+
+      <button (click)="simularInvestimentos(id_user , contaId)" mat-stroked-button class="mat-elevation-z8">
+        SIMULAR INVESTIMENTOS
+      </button>
+
+    </div>
+
+
+  </div>
+
+
+</mat-sidenav-container>

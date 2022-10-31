@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 a1279cfb73ff863ae0a62d1165830b575263d1c5 RonaldoFagundes <ronaldofagundes@gmail.com> 1665796052 -0300	commit (initial): initial commit
+a1279cfb73ff863ae0a62d1165830b575263d1c5 ec533d07908cb6d7f3b1553428b7ec931c505dad RonaldoFagundes <ronaldofagundes@gmail.com> 1665874608 -0300	commit: add angular material
+ec533d07908cb6d7f3b1553428b7ec931c505dad 41311fe987fb4d68a67809d1b8a3b16854d71449 RonaldoFagundes <ronaldofagundes@gmail.com> 1665959773 -0300	commit: implementando e config angular material e os components
+41311fe987fb4d68a67809d1b8a3b16854d71449 2fa838a9af5b0a78ce762508aeba5c9f0e00fa8d RonaldoFagundes <ronaldofagundes@gmail.com> 1666394143 -0300	commit: implemantando read dos componetes: conta,movimentacao,investimentos
+2fa838a9af5b0a78ce762508aeba5c9f0e00fa8d 5178979b96143bdcda67f546162eb31e4942b430 RonaldoFagundes <ronaldofagundes@gmail.com> 1666496771 -0300	commit: implementando read dos components contas & movimentacao
+5178979b96143bdcda67f546162eb31e4942b430 71804af41b2ff3881342ec21e7bde50c8b20a792 RonaldoFagundes <ronaldofagundes@gmail.com> 1666532194 -0300	commit: finalizando create do componente conta
+71804af41b2ff3881342ec21e7bde50c8b20a792 747fb4891c490fdf4f7506ea61f87b045bad43b9 RonaldoFagundes <ronaldofagundes@gmail.com> 1666754186 -0300	commit: estilizando os components
+747fb4891c490fdf4f7506ea61f87b045bad43b9 7c56de07a8b997b390306786a4aef4c91177790e RonaldoFagundes <ronaldofagundes@gmail.com> 1667011686 -0300	commit: implementacao component investimento-simulador
+7c56de07a8b997b390306786a4aef4c91177790e e92b376174a641fabb92d94ada62630316728fac RonaldoFagundes <ronaldofagundes@gmail.com> 1667014493 -0300	commit: add readme file
+e92b376174a641fabb92d94ada62630316728fac ed264e7037cd8740b7932cdfaaa5b4b34d006b80 RonaldoFagundes <ronaldofagundes@gmail.com> 1667103260 -0300	commit: implementando responsividade
+ed264e7037cd8740b7932cdfaaa5b4b34d006b80 1940d9d2082e98df664b9846a357157daa93f46b RonaldoFagundes <ronaldofagundes@gmail.com> 1667230160 -0300	commit: update validation invest simulator component
+1940d9d2082e98df664b9846a357157daa93f46b 1884ef339cc634ca97b520271dc56f87a61489bc RonaldoFagundes <ronaldofagundes@gmail.com> 1667245789 -0300	commit: implementação update_user component
