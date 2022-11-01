@@ -182,7 +182,7 @@ button{
 
 
 
-@media(max-width:380px){
+@media (min-width: 380px) and (max-width: 700px) {
     
   .container{  
     padding: 0px
