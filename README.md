@@ -24,62 +24,50 @@ Front-end angular consumindo api java-spring-boot Back-end
  - TypeScript
  - Postman
  - kanban
- 
+ - heroku
   
 
-  <!-- 
+  
   
   &nbsp;
   ## youtube :
   &nbsp;
   :point_right:
-  [assistir](https://www.youtube.com/watch?v=OAXibz_2vn0)     
-
+  [assistir](https://www.youtube.com/watch?v=JL2u5mQ_mtY)     
+  
    &nbsp;
    
-   ## Imagens app :
+   ## Imagens  :
    &nbsp; 
    
-   -->
+   
    
 
 
- <!--
  
-  <div style="display:flex; justify-content: space-evenly;">
+ 
+ <div style="display:flex; justify-content: space-evenly;">
+        
+  
+  <img src="https://user-images.githubusercontent.com/79234840/199363002-ec7fe262-79c5-41e0-b951-53435684ec46.PNG" width="240px" height="400px"/>
+  
+  <img src="https://user-images.githubusercontent.com/79234840/199362996-9cff6260-422e-4b97-b23b-ad95ed2a6754.PNG" width="240px" height="400px"/>
 
+  <img src="https://user-images.githubusercontent.com/79234840/199362998-bb7c4517-2a5b-4faa-86d4-61f89c40b0eb.PNG" width="240px" height="400px"/>
+
+  <img src="https://user-images.githubusercontent.com/79234840/199362995-fa0c2a97-eeff-4c5f-a061-c10fa2fabb23.PNG" width="240px" height="400px"/>
+  
+   <img src="https://user-images.githubusercontent.com/79234840/199362991-b3be1036-ed7d-46e6-a6e2-63cbc6bd8311.PNG" width="240px" height="400px"/>
+
+   <img src="https://user-images.githubusercontent.com/79234840/199362989-54e577df-5881-4e76-9c3d-06573ea4c8d6.PNG" width="240px" height="400px"/>
+
+  <img src="https://user-images.githubusercontent.com/79234840/199362986-945e23e6-ea53-4c20-af92-fdf787927f59.PNG" width="240px" height="400px"/>
+ 
     
-  
-  
-  <img src="https://user-images.githubusercontent.com/79234840/190030968-252c1201-23c7-4c5a-b27d-a09d0ffd5884.png" width="240px" height="400px"/>
-  
-  <img src="https://user-images.githubusercontent.com/79234840/190030949-8124737e-b13d-4912-a9e2-7f2685d9fd2f.png" width="240px" height="400px"/>
-
-  <img src="https://user-images.githubusercontent.com/79234840/190030969-3166ab34-9572-4570-a14c-d517dc775ba7.png" width="240px" height="400px"/>
-
-  <img src="https://user-images.githubusercontent.com/79234840/190030959-c8fe7876-e40e-455e-a7d4-47caa1f9117a.png" width="240px" height="400px"/>
-  
-   <img src="https://user-images.githubusercontent.com/79234840/190030963-f58b04fb-01fb-4d09-beae-5d13e7b1e881.png" width="240px" height="400px"/>
-
-   <img src="https://user-images.githubusercontent.com/79234840/190030964-9e036b32-772c-43ac-beb8-6c4be6b053a5.png" width="240px" height="400px"/>
-
-  <img src="https://user-images.githubusercontent.com/79234840/190030958-36e1c694-b50e-4864-b427-74dc5da4c42a.png" width="240px" height="400px"/>
-
-  <img src="https://user-images.githubusercontent.com/79234840/190030957-0dab9a25-9658-4ace-9dfe-0855a5a42bc6.png" width="240px" height="400px"/>
-
-  <img src="https://user-images.githubusercontent.com/79234840/190030952-05ca9272-1da1-4875-bf32-0f0562d88d6a.png" width="240px" height="400px"/>
-  
-  <img src="https://user-images.githubusercontent.com/79234840/190030971-078be133-cbb1-423e-a6f7-96a96fbdfae6.png" width="240px" height="400px"/>
-  
-  <img src="https://user-images.githubusercontent.com/79234840/190030966-50ada949-4493-438c-97c3-3b85835805e7.png" width="240px" height="400px"/>
- 
-
-  
-     
 
  </div> 
  
-  -->
+ 
 
 &nbsp;
 
